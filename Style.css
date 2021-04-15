@@ -8,20 +8,20 @@ html {
     margin-top: 200px;
 }
 
-.row{
+.container .row{
     width: 90%;
     display: flex;
     flex-direction: row;
     margin:  0px 0px 0px 50px;
 }
 
-.col-40{
+.container .row .col-40{
     width: 40%;
     margin: 10px;
     
 }
 
-.col-40 a {
+.container .row .col-40 a {
     text-align: center;
     display: flex;
     justify-content: center;
@@ -33,7 +33,7 @@ html {
     font-weight: 600;
 }
 
-.cont-image{
+.container .row .cont-image{
     width: 100%;
     margin: 0 auto;
     padding: 0;
@@ -41,7 +41,7 @@ html {
     display: flex;
 }
 
-.cont-image img{
+.container .row .cont-image img{
     width: 80%;
     display: flex;
     justify-content: center;
